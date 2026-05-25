@@ -1,0 +1,84 @@
+2026-05-25 17:01:46,304 [INFO] __main__ — 🟢 App starting...
+2026-05-25 17:01:48,145 [INFO] __main__ — =======================================================
+2026-05-25 17:01:48,147 [INFO] __main__ —   🌍 PUBLIC IP: 102.89.82.130
+2026-05-25 17:01:48,148 [INFO] __main__ —   👉 Whitelist on Bybit API, Flutterwave & Paga dashboards
+2026-05-25 17:01:48,149 [INFO] __main__ — =======================================================
+2026-05-25 17:01:48,150 [WARNING] __main__ — RENDER_EXTERNAL_URL not set — running in local/Termux mode; webhook will not be set automatically
+2026-05-25 17:01:48,202 [INFO] __main__ — ✅ Disk DB initialised at /data
+2026-05-25 17:01:48,232 [DEBUG] asyncio — Using proactor: IocpProactor
+2026-05-25 17:01:48,260 [INFO] __main__ — ✅ Persistent event loop started
+2026-05-25 17:01:53,899 [INFO] bot — 🤖 Bot handlers registered
+2026-05-25 17:01:54,743 [INFO] __main__ — 🟡 Paga payment queue worker started from app.py
+2026-05-25 17:01:54,743 [INFO] __main__ — Skipping webhook setup because no RENDER_EXTERNAL_URL provided
+2026-05-25 17:01:54,747 [INFO] bot — [Paga Queue] Worker started
+2026-05-25 17:01:55,036 [INFO] __main__ — ✅ Bot ready
+2026-05-25 17:01:55,037 [INFO] __main__ — 🚀 Starting Flask on port 10000
+2026-05-25 17:01:55,239 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://172.20.10.3:10000
+2026-05-25 17:01:55,240 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-05-25 17:07:44,913 [INFO] werkzeug — 127.0.0.1 - - [25/May/2026 17:07:44] "GET / HTTP/1.1" 200 -
+2026-05-25 17:07:47,055 [INFO] werkzeug — 127.0.0.1 - - [25/May/2026 17:07:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-25 17:10:10,806 [INFO] werkzeug — 172.20.10.3 - - [25/May/2026 17:10:10] "GET / HTTP/1.1" 200 -
+2026-05-25 17:10:13,279 [INFO] werkzeug — 172.20.10.3 - - [25/May/2026 17:10:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-25 17:11:39,969 [INFO] __main__ — SIGTERM/SIGINT received — shutting down gracefully
+2026-05-25 17:11:42,279 [INFO] __main__ — SIGTERM/SIGINT received — shutting down gracefully
+2026-05-25 17:11:42,448 [INFO] __main__ — Webhook removed
+2026-05-25 17:11:42,450 [INFO] __main__ — Shutdown complete
+2026-05-25 17:11:42,578 [ERROR] asyncio — Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<_paga_queue_worker() running at C:\Users\AiA\Documents\P2Pbot-bybitM\bot.py:924> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-05-25 17:11:42,579 [ERROR] bot — [Paga Queue] Worker loop error: Event loop is closed
+2026-05-25 17:14:39,942 [INFO] __main__ — 🟢 App starting...
+2026-05-25 17:14:40,782 [INFO] __main__ — =======================================================
+2026-05-25 17:14:40,782 [INFO] __main__ —   🌍 PUBLIC IP: 102.89.82.130
+2026-05-25 17:14:40,783 [INFO] __main__ —   👉 Whitelist on Bybit API, Flutterwave & Paga dashboards
+2026-05-25 17:14:40,783 [INFO] __main__ — =======================================================
+2026-05-25 17:14:40,783 [WARNING] __main__ — RENDER_EXTERNAL_URL not set — running in local/Termux mode; webhook will not be set automatically
+2026-05-25 17:14:40,843 [INFO] __main__ — ✅ Disk DB initialised at /data
+2026-05-25 17:14:40,844 [DEBUG] asyncio — Using proactor: IocpProactor
+2026-05-25 17:14:40,846 [INFO] __main__ — ✅ Persistent event loop started
+2026-05-25 17:14:46,093 [INFO] bot — 🤖 Bot handlers registered
+2026-05-25 17:14:46,784 [INFO] __main__ — 🟡 Paga payment queue worker started from app.py
+2026-05-25 17:14:46,785 [INFO] __main__ — Skipping webhook setup because no RENDER_EXTERNAL_URL provided
+2026-05-25 17:14:46,790 [INFO] bot — [Paga Queue] Worker started
+2026-05-25 17:14:46,983 [INFO] __main__ — ✅ Bot ready
+2026-05-25 17:14:46,984 [INFO] __main__ — 🚀 Starting Flask on port 10000
+2026-05-25 17:14:47,117 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://172.20.10.3:10000
+2026-05-25 17:14:47,117 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-05-25 17:15:31,132 [INFO] werkzeug — 172.20.10.3 - - [25/May/2026 17:15:31] "GET / HTTP/1.1" 200 -
+2026-05-25 17:15:32,193 [INFO] werkzeug — 172.20.10.3 - - [25/May/2026 17:15:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-25 17:26:27,201 [INFO] __main__ — SIGTERM/SIGINT received — shutting down gracefully
+2026-05-25 17:26:28,826 [INFO] __main__ — Webhook removed
+2026-05-25 17:26:28,827 [INFO] __main__ — Shutdown complete
+2026-05-25 17:26:38,998 [INFO] __main__ — 🟢 App starting...
+2026-05-25 17:26:40,597 [INFO] __main__ — =======================================================
+2026-05-25 17:26:40,598 [INFO] __main__ —   🌍 PUBLIC IP: 102.89.82.130
+2026-05-25 17:26:40,598 [INFO] __main__ —   👉 Whitelist on Bybit API, Flutterwave & Paga dashboards
+2026-05-25 17:26:40,599 [INFO] __main__ — =======================================================
+2026-05-25 17:26:40,599 [WARNING] __main__ — RENDER_EXTERNAL_URL not set — running in local/Termux mode; webhook will not be set automatically
+2026-05-25 17:26:40,604 [INFO] __main__ — ✅ Disk DB initialised at /data
+2026-05-25 17:26:40,605 [DEBUG] asyncio — Using proactor: IocpProactor
+2026-05-25 17:26:40,609 [INFO] __main__ — ✅ Persistent event loop started
+2026-05-25 17:26:42,117 [INFO] bot — 🤖 Bot handlers registered
+2026-05-25 17:26:42,718 [INFO] __main__ — 🟡 Paga payment queue worker started from app.py
+2026-05-25 17:26:42,719 [INFO] __main__ — Skipping webhook setup because no RENDER_EXTERNAL_URL provided
+2026-05-25 17:26:42,724 [INFO] bot — [Paga Queue] Worker started
+2026-05-25 17:26:42,942 [INFO] __main__ — ✅ Bot ready
+2026-05-25 17:26:42,944 [INFO] __main__ — 🚀 Starting Flask on port 10000
+2026-05-25 17:26:42,988 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://172.20.10.3:10000
+2026-05-25 17:26:42,988 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-05-25 17:27:50,154 [INFO] werkzeug — 127.0.0.1 - - [25/May/2026 17:27:50] "GET / HTTP/1.1" 200 -
+2026-05-25 17:47:19,889 [INFO] __main__ — SIGTERM/SIGINT received — shutting down gracefully
+2026-05-25 17:47:21,563 [INFO] __main__ — SIGTERM/SIGINT received — shutting down gracefully
+2026-05-25 17:47:21,723 [INFO] __main__ — Webhook removed
+2026-05-25 17:47:21,723 [INFO] __main__ — Shutdown complete
+2026-05-25 17:47:22,001 [ERROR] asyncio — Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<_paga_queue_worker() running at C:\Users\AiA\Documents\P2Pbot-bybitM\bot.py:924> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-05-25 17:47:22,002 [ERROR] bot — [Paga Queue] Worker loop error: Event loop is closed
